@@ -1,0 +1,117 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    background-color: azure;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+nav ul {
+    display: inline-flex;
+    list-style: none;
+    background-color: black;
+    height: 50px;
+    width: -webkit-fill-available
+}
+
+nav ul li {
+    margin-left: 10px;
+    padding-right: 30px;
+    color: aqua;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.Logo {
+    display: inline-flex;
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+    margin-right: 140px
+}
+
+.Logo img {
+    margin: 0px;
+    width: 40px;
+    height: 45px;
+    padding-right: 10px;
+    padding-top: 3px;
+}
+
+.container {
+    color: rgb(240, 246, 246);
+    margin: 50px 400px;
+    padding: 20px;
+    border-radius: 20px;
+    height: 30vw;
+    font-size: 40px;
+    background-image: url(musicbg.jpg);
+}
+
+input {
+    width: 50vw;
+    margin-left: 400px;
+}
+
+.songitems {
+    background-color: #f6f1f1;
+    color: black;
+    border-radius: 34px;
+    width: 400px;
+    height: 60px;
+    padding: 20px;
+    margin: 15px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+.songlist img {
+    width: 50px;
+    cursor: pointer;
+}
+
+.bottom {
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    width: -webkit-fill-available;
+    height: 130px;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #f6f1f1;
+}
+
+.btn {
+    cursor: pointer;
+}
+
+
+.buttons {
+    margin-left: 800px;
+    display: flex;
+    color: #f6f1f1;
+    flex-direction: row;
+    align-items:center;
+}
+
+.prev-track,
+.playpause-track,
+.next-track {
+    padding: 25px;
+    opacity: 0.8;
+    cursor: pointer;
+
+}
+
+.first {
+    margin-left: 850px;
+}

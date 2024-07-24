@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Music at your Fingertips</title>
+    <link rel="stylesheet"
+        href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="Logo"><img src="logo.jpg" alt="Spotify">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <span>Sukoon Hits : Travelling PlayList  </span>
+        <div class="songlistcontainer">
+            <div class="songlist">
+                <div class="songitems">
+                <img src="LMLY.jpg" alt="">
+                <Span>Let me love you</Span>
+                <span id="Time">5:12</span>
+                <div class="btn">
+                <i id="S1" class="fa fa-play-circle fa-1x"></i></div>
+                <audio id="audio1" src="Let me love you.m4a"></audio>
+            </div>
+            <div class="songitems">
+                <img src="SangRahiyo.jpg" alt="">
+                <Span>Sang Rahiyo</Span>
+                <Span class="songplay">4:30</Span>
+                <div class="btn">
+                    <audio id="audio2" src="Sang Rahiyo.m4a"></audio>
+                <i id="S2" class="fa fa-play-circle fa-1x"></i></div>
+            </div>
+            <div class="songitems">
+                <img src="Dekha Tunu.jpg" alt="">
+                <Span>Dekha tenu pehli bar </Span>
+                <Span class="songplay">3:50</Span>
+                <div class="btn">
+                    <audio id="audio3" src="Dekha tenu Pehli Pehli bar ve.m4a"></audio>
+                <i id="S3" class="fa fa-play-circle fa-1x"></i></div>
+            </div>
+            <div class="songitems">
+                <img src="Your Eyes.jpg" alt="">
+                <Span>Your Eyes</Span>
+                <Span class="songplay">4.20</Span>
+                <div class="btn">
+                    <audio id="audio4" src="Your eyes got my heart.m4a"></audio>
+                <i id="S4" class="fa fa-play-circle fa-1x"></i></div>
+            </div>
+            
+            </div>
+        </div>
+    </div>
+    <div class="bottom">
+        <input type="range" id="seekbar" value="0" min="0" step="0.01">
+        <span id="currentTime">0:00</span>
+        
+        <div class="buttons">
+            <div class="prev-track" onclick="prevTrack()">
+              <i class="fa fa-step-backward fa-2x"></i>
+            </div>
+            <div class="playpause-track">
+              <i id="play-pause" class="fa fa-play-circle fa-4x"></i>
+            </div>
+            <div class="next-track" onclick="nextTrack()">
+              <i class="fa fa-step-forward fa-2x"></i>
+            </div>
+          </div>
+        </div>
+        
+    <script src="script.js"></script>
+</body>
+</html>
